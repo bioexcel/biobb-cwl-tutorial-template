@@ -1,6 +1,6 @@
-# biobb-example-template
+# BioBB CWL Tutorial Template
 
-Example Template for BioBB
+CWL Template for the [BioBB CWL tutorial](https://biobb-wf-cwl-tutorial.readthedocs.io/en/latest/).
 
 ### Requirements
 
