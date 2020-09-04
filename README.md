@@ -5,39 +5,35 @@ CWL Template for the [BioBB CWL tutorial](https://biobb-wf-cwl-tutorial.readthed
 
 #### Creating a new repository from this template
 
+You will create a new repository for your work from this template, following the instructions below.
+
+Using BioBB CWL requires access to the BioBB libraries. To make it easier to find and access these
+they will be included in the directory `biobb @ xxxxxxx` through use of `git submodules`.
+This means that, when you are working with your new repository locally, **you cannot download 
+a zip** and must **clone the repository instead**. 
+
+Although the submodule links to the BioBB libraries are already in this template, they will not be 
+copied to your new repository, due to current limitations on github's support for submodules and
+templates. You will have to recreate this link yourself, following the instructions in step 3 below.
+
 1. Click the `Use this template` button, and create a new repository as you would usually
-   * At this point you can, if you wish, copy this repository to a different git service (such as [gitlab](https://gitlab.com/)).  
-2. Clone the repository locally, using `git clone [template name]`
+   * Before the next step you can, if you wish, copy this repository to a different git service (such as [gitlab](https://gitlab.com/)).  
+2. Clone the repository locally, using `git clone [template address]`
 3. Within the repository directory you will have to initiate the submodule link:
    * `git submodule add --name biobb https://github.com/bioexcel/biobb_adapters biobb` 
+4. Save these changes to your repository, and push them back to your repository on github/gitlab:
    * `git commit`
    * `git push`
 
 
-This template requires the BioBB libraries. To make it easier to find and access these
-they should be included in the directory `biobb @ xxxxxxx` through use of `git submodules`.
-This means that **you cannot download a zip** and must **clone the repository instead**.
-
-At a future date, these will be include with the template, however this functionality is
-not available on github at the moment, so you will have to create the link to the libraries
-yourself once you've created your new repository from this template. 
-
-
-
 #### Working with your new repository
 
-To clone the repository and setup the submodules, you need to do the following three steps:
+Following the steps above will initialise your new repository, and you will be able to work with CWL.
+If you wish to download your repository again anywhere else, follow the steps below to initialise the
+BioBB submodules:
 
 1. Clone the repository to the machine you want to use it on.
-2. Change into that directory
-2. Initialise the submodules, which downloads the required submodules to the machine.
-
-These steps can be done with the following commands:
-
-```
-git clone git@github.com:bioexcel/biobb-wf-md-setup-protein-cwl.git
-cd biobb-wf-md-setup-protein-cwl
-git submodule update --init
-```
-
+   * `git clone [template address]`
+2. Within the repository directory, initialise the submodules, which downloads the required submodules to the machine.
+   * `git submodule update --init`
 
