@@ -2,6 +2,11 @@
 
 CWL Template for the [BioBB CWL tutorial](https://biobb-wf-cwl-tutorial.readthedocs.io/en/latest/).
 
+This template will ensure that your working directory contain the BioBB libraries needed for running
+the example scripts.
+
+You will also need to install [docker](https://www.docker.com/) and [cwl-tools](https://github.com/common-workflow-language/cwltool).
+Instructions for installing both of these are available via their websites.
 
 #### Creating a new repository from this template
 
