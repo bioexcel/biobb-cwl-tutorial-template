@@ -3,7 +3,7 @@
 These instructions are for setting up local biobb libraries using `git submodules`. They
 require that you have some experience of using `git` for version control - if you don't,
 or require a refresher, then we recommend working through the Software Carpentry course
-on using git (see links at the end of the document) first.
+on using git first (see links at the end of the document).
 
 Make sure that you've followed the `Advanced Usage` instructions in `README.md` before 
 following these instructions.
