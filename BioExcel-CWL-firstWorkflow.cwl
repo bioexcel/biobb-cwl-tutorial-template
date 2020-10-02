@@ -24,7 +24,7 @@ steps:
     label: Fetch PDB Structure
     doc: |
       Download a protein structure from the PDB database
-    run: biobb/biobb_adapters/cwl/biobb_io/mmb_api/pdb.cwl
+    run: https://raw.githubusercontent.com/bioexcel/biobb_adapters/v0.1.4/biobb_adapters/cwl/biobb_io/mmb_api/pdb.cwl
     in:
       output_pdb_path: step1_output_name
       config: step1_properties
@@ -35,7 +35,7 @@ steps:
     doc: |
       Fix the side chains, adding any side chain atoms missing in the
       original structure.
-    run: biobb/biobb_adapters/cwl/biobb_model/model/fix_side_chain.cwl
+    run: https://raw.githubusercontent.com/bioexcel/biobb_adapters/v0.1.4/biobb_adapters/cwl/biobb_model/model/fix_side_chain.cwl
     in:
       input_pdb_path: step1_pdb/output_pdb_file
     out: [output_pdb_file]
