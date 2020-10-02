@@ -18,9 +18,9 @@ Although the submodule links to the BioBB libraries are already in this template
 copied to your new repository, due to current limitations on github's support for submodules and
 templates. You will have to recreate this link yourself, following the instructions in step 3 below.
 
- 1. Within the repository directory that you downloaded you will have to initiate the submodule link:
+1. Within the repository directory that you downloaded you will have to initiate the submodule link:
    * `git submodule add --name biobb https://github.com/bioexcel/biobb_adapters biobb` 
- 2. Save these changes to your repository, and push them back to your repository on github/gitlab:
+2. Save these changes to your repository, and push them back to your repository on github/gitlab:
    * `git commit`
    * `git push`
 
@@ -38,13 +38,13 @@ Following the steps above will initialise your new repository, and you will be a
 If you wish to download your repository again anywhere else, follow the steps below to initialise the
 BioBB submodules:
 
- 1. Clone the repository to the machine you want to use it on.
+1. Clone the repository to the machine you want to use it on.
    * `git clone [template address]`
- 2. Within the repository directory, initialise the submodules, which downloads the required submodules to the machine.
+2. Within the repository directory, initialise the submodules, which downloads the required submodules to the machine.
    * `git submodule update --init`
 
 
 #### Further Reading
 
- 1. [Git Submodule Guide](https://www.git-scm.com/book/en/v2/Git-Tools-Submodules)
- 2. [Software Carpentry Git Introduction](https://swcarpentry.github.io/git-novice/)
+1. [Git Submodule Guide](https://www.git-scm.com/book/en/v2/Git-Tools-Submodules)
+2. [Software Carpentry Git Introduction](https://swcarpentry.github.io/git-novice/)
